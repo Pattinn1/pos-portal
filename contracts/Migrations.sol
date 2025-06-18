@@ -13,7 +13,7 @@ contract Migrations {
         require(msg.sender == owner, "Sender should be owner");
         _;
     }
-
+  n 
     function setCompleted(uint256 completed) public restricted {
         last_completed_migration = completed;
     }
